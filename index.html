@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body style="background-color: white;">
+    <form>
+    <!--type text for a basic input-->        
+        <label>First Name</label>
+        <input typle="text" name="firstname" placeholder="First Name" />
+
+        <label>Radio</label>
+        <input type="radio" name="radio" />
+
+        <label>Email</label>
+        <input type="email" name="email" placeholder="email" />
+
+        <label>Password</label>
+        <input type="password" name="password" placeholder="password" />
+
+        <label>Dropdown</label>
+        <select name="edu">
+            <option value="ns">North School</option>
+            <option value="ss"> South School</option>
+            <option value="es">East School</option>
+            <option value="ws">West School</option>
+            <option value="as">Another School</option>
+            <!-- option*5 tab to make multiple options-->
+
+        </select>
+
+        <label>Text Area</label>
+        <textarea rows="10" cols="30" name="tweet" placeholder="bio"></textarea>
+
+        <label>Calendar</label>
+        <input type="date" name="timeofyear" />
+
+        <!--<input type+"submit" /> or or use below to submit a form-->
+
+        <button type="submit">Apply</button>
+
+        <button type="button" onclick="alert('hello world')">Click Here</button>
+    </form>
+    
+</body>
+</html>
